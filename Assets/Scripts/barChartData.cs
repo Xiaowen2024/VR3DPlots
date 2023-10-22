@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class barChartData : MonoBehaviour
 {
     
-    public string x;
-    public string y;
-
-    public int value;
+    public List<string> x;
+    public List<string> z;
+    public List<int> value;
 }
+
+ 
